@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "wwe";
+    src: url('../fonts/WWE Raw.ttf');
+}
+
+@font-face {
+    font-family: "comic";
+    src: url('../fonts/Actioncomic.ttf');
+    font-weight: 100;
+}
+body{
+    background-color: black;
+    text-align:center;
+}
+
+.head{
+    text-align: center;
+    padding-top: 12px;
+    font-family: "wwe";
+    font-size: 2.5rem;
+}
+
+.container {
+    height: 90vh;
+    width: 50%;
+    margin:auto;
+    background-color: #ffffff;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+	z-index: 2;
+		
+}
+.p{
+    margin-top: 50%;
+    font-family: "comic";
+    cursor: default;
+}
+
+.kane{
+    background-image: url("../photos/kane.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jey{
+    background-image: url("../photos/jey.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.rock{
+    background-image: url("../photos/rock.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cody{
+    background-image: url("../photos/cody.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: black;
+}
